@@ -1,0 +1,46 @@
+{
+  "name": "nequenihil",
+  "version": "1.0.0",
+  "description": "A MyGeotab API wrapper for clientside and serverside javascript",
+  "main": "dist/api.min.js",
+  "readmeFilename": "README.md",
+  "author": "CliftonCummerata",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TysonDouglas/nequenihil.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "axios": "^0.19.2",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.6",
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-loader": "^3.0.3",
+    "load-grunt-config": "^0.19.2",
+    "mocha": "^7.1.0",
+    "nock": "^12.0.1",
+    "node-localstorage": "^2.1.5",
+    "puppeteer": "^2.1.1",
+    "regenerator-runtime": "^0.13.3",
+    "source-map-support": "^0.5.16",
+    "start-server-and-test": "<=1.10.7",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+  },
+  "mocha": {
+    "timeout": 11000,
+    "reporter": "spec"
+  },
+  "homepage": "https://github.com/TysonDouglas/nequenihil.git",
+  "bugs": {
+    "url": "https://github.com/TysonDouglas/nequenihil.git/issues"
+  }
+}
